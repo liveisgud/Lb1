@@ -15,3 +15,7 @@ def factorial(n):
     if n == 0:
         return 1
         return n * factorial(n-1)
+
+# Функция для нахождения максимального числа из списка
+    def find_max(nums):
+        return max(nums)
