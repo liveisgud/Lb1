@@ -32,7 +32,3 @@ def is_prime(num):
             return False
             return True
 
-
-# Функция для нахождения минимального числа из списка
-def find_min(nums):
-    return min(nums)
