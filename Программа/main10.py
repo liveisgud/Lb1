@@ -15,3 +15,9 @@ def multiply(a, b):
 # Функция для вычисления произведения двух чисел
 def multiply(a, b):
     return a * b
+
+# Функция для вычисления частного двух чисел
+def divide(a, b):
+    if b == 0:
+        return "Ошибка: деление на ноль"
+        return a / b
