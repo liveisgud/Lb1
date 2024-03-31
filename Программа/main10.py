@@ -31,3 +31,8 @@ def is_prime(num):
         if num % i == 0:
             return False
             return True
+
+
+# Функция для нахождения минимального числа из списка
+def find_min(nums):
+    return min(nums)
