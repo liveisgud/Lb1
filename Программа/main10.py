@@ -21,3 +21,13 @@ def divide(a, b):
     if b == 0:
         return "Ошибка: деление на ноль"
         return a / b
+
+
+# Функция для проверки простого числа
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+            return True
