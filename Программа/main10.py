@@ -11,3 +11,7 @@ def subtract(a, b):
 def multiply(a, b):
     return a * b
 >>>>>>> .merge_file_TFzLlT
+
+# Функция для вычисления произведения двух чисел
+def multiply(a, b):
+    return a * b
